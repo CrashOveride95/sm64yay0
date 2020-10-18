@@ -14,7 +14,7 @@ VERSION ?= us
 # Graphics microcode used
 GRUCODE ?= f3d_old
 # If COMPARE is 1, check the output sha1sum when building 'all'
-COMPARE ?= 1
+COMPARE ?= 0
 # If NON_MATCHING is 1, define the NON_MATCHING and AVOID_UB macros when building (recommended)
 NON_MATCHING ?= 0
 # Build for the N64 (turn this off for ports)
@@ -306,7 +306,7 @@ export LANG := C
 
 # N64 tools
 TOOLS_DIR = tools
-MIO0TOOL = $(TOOLS_DIR)/mio0
+MIO0TOOL = $(TOOLS_DIR)/slienc
 N64CKSUM = $(TOOLS_DIR)/n64cksum
 N64GRAPHICS = $(TOOLS_DIR)/n64graphics
 N64GRAPHICS_CI = $(TOOLS_DIR)/n64graphics_ci

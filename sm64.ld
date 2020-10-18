@@ -115,7 +115,7 @@ SECTIONS
       BUILD_DIR/src/game/area.o(.text);
       BUILD_DIR/src/game/rendering_graph_node.o(.text);
       BUILD_DIR/src/game/profiler.o(.text);
-      BUILD_DIR/asm/decompress.o(.text);
+      BUILD_DIR/asm/slidec.o(.text);
       BUILD_DIR/src/game/camera.o(.text);
       BUILD_DIR/src/game/debug_course.o(.text);
       BUILD_DIR/src/game/object_list_processor.o(.text);
